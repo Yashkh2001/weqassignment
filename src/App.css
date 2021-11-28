@@ -1,0 +1,594 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/*               Hero Section                    */
+.hero {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+}
+
+.hero-content {
+  width: 60%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-image: url(./assets/drone2.jpg);
+  filter: brightness(95%);
+}
+
+.nav-content {
+  width: 40%;
+}
+
+.logo {
+  margin: 30px;
+  letter-spacing: 1px;
+  height: 3rem;
+  width: 3rem;
+  background-color: none;
+  border: 1px solid white;
+}
+
+.logo h3 {
+  position: relative;
+  left: 1.9rem;
+  top: 15px;
+}
+
+.content {
+  height: 40vh;
+  width: 40vw;
+  margin-left: 15vw;
+  margin-top: 10vh;
+  color: white;
+}
+
+.content h2 {
+  font-weight: bold;
+  line-height: 3rem;
+}
+
+.content p {
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  top: 1vh;
+  width: 30vw;
+}
+
+.nav-content {
+  background-color: #171716;
+}
+.nav1 {
+  width: 65%;
+  margin-left: 25%;
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav1 a {
+  color: #fff;
+  font-weight: 900;
+}
+
+.nav1 a:nth-child(5) {
+  background-color: red;
+  border: 4px solid red;
+  border-radius: 2px;
+}
+
+.nav-img img {
+  width: 22rem;
+  height: 20rem;
+
+  margin-top: 7vh;
+  position: relative;
+  right: 4vw;
+  z-index: 1;
+}
+
+.icons {
+  height: 3vh;
+  width: 4vw;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+
+  position: relative;
+  left: 11.5vw;
+  top: 1vh;
+}
+
+.icons i {
+  color: #fff;
+}
+
+/*               About Section                    */
+.about {
+  background-color: rgb(234, 240, 240);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.about-content {
+  height: 100vh;
+  width: 55vw;
+}
+
+.content-text {
+  height: 60vh;
+  width: 35vw;
+  position: relative;
+  left: 17vw;
+  top: 10vh;
+}
+.content-text button {
+  position: relative;
+  top: 1vh;
+  font-weight: bold;
+  font-size: 15px;
+  width: 9rem;
+  height: 3rem;
+  background-color: black;
+}
+
+.cards {
+  margin-top: 10vh;
+  width: 27rem;
+}
+
+.card {
+  width: 12rem;
+  padding-left: 1rem;
+}
+
+.card p {
+  width: 8rem;
+}
+.card i {
+  margin-top: 2rem;
+}
+.card h4 {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.card-red {
+  background-color: red;
+  color: white;
+}
+
+/*               Usecase Section                    */
+
+.usecase {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.images {
+  height: 100vh;
+  width: 42vw;
+
+  display: flex;
+  align-items: center;
+}
+
+.points {
+  height: 100vh;
+  width: 58vw;
+}
+
+.images img:nth-child(1) {
+  height: 20rem;
+  width: 20rem;
+  position: relative;
+  left: 12rem;
+}
+
+.images img:nth-child(2) {
+  height: 35rem;
+  width: 20rem;
+  z-index: 1;
+}
+
+.points h3 {
+  font-weight: bold;
+  margin-top: 10rem;
+  line-height: 2.5rem;
+}
+
+.points p {
+  width: 34rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 2rem;
+}
+li {
+  list-style-type: none;
+  margin-top: 0.7rem;
+  font-size: 15px;
+}
+li:before {
+  content: "✓";
+  color: red;
+  font-weight: bold;
+}
+
+/* Conclusion Section */
+.conclusion {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.conclusion-div {
+  position: relative;
+  top: 5rem;
+  width: 70rem;
+  margin-left: 13rem;
+}
+
+.card2 {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.card2 h5 {
+  font-weight: bold;
+  position: relative;
+  left: 1rem;
+}
+
+.card2 span {
+  font-size: 15px;
+  display: block;
+  font-weight: normal;
+  margin-top: 1rem;
+}
+
+.start-now {
+  background-color: rgb(234, 240, 240);
+  width: 100%;
+  height: 15rem;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.start-now h3 {
+  font-weight: bold;
+  position: relative;
+  right: 3rem;
+}
+
+.btn-danger {
+  height: 3rem;
+  width: 12rem;
+}
+
+/*               Footer Section                    */
+
+.footer {
+  background-color: #171716;
+  height: 50vh;
+}
+
+.foot1 {
+  height: 40vh;
+  display: flex;
+}
+.left-section {
+  height: 30vh;
+  width: 50vw;
+  margin-top: 2rem;
+}
+
+.right-section {
+  height: 40vh;
+  width: 50vw;
+}
+
+.l-2 {
+  letter-spacing: 1px;
+  height: 3rem;
+  width: 3rem;
+  background-color: none;
+  border: 1px solid white;
+  position: relative;
+  right: 3.5rem;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+
+  color: #fff;
+}
+
+.contact {
+  height: 40vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.contact h5 {
+  font-weight: bold;
+}
+
+.contact a {
+  display: block;
+  color: #fff;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+.company {
+  position: relative;
+  right: 1vh;
+}
+
+.foot2 {
+  width: 100%;
+  height: 10vh;
+  position: relative;
+  bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.foot2 p {
+  position: relative;
+  left: 1rem;
+}
+
+.burger div {
+  display: none;
+
+  width: 30px;
+  height: 7px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.burger {
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  bottom: 5vh;
+  position: relative;
+  left: 75vw;
+}
+
+.toggle .line1 {
+  transform: rotate(45deg);
+  background-color: #fff;
+}
+.toggle .line2 {
+  transform: rotate(-45deg);
+  background-color: #fff;
+}
+.toggle .line3 {
+  opacity: 0;
+  background-color: #fff;
+}
+
+/*                               Responsive Design */
+
+@media only screen and (min-width: 2000px) and (orientation: landscape) {
+  .content {
+    height: 40vh;
+    width: 40vw;
+    margin-left: 15vw;
+    margin-top: 15vh;
+    color: white;
+  }
+
+  .content h2 {
+    font-weight: bold;
+    line-height: 4rem;
+    font-size: 3rem;
+  }
+  .content p {
+    font-size: 1.5rem;
+  }
+  .nav-img img {
+    width: 23rem;
+    height: 21rem;
+
+    margin-top: 10vh;
+    position: relative;
+    right: 4vw;
+    z-index: 1;
+  }
+
+  .icons {
+    height: 3vh;
+    width: 4vw;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+    left: 5.5vw;
+    top: 1vh;
+  }
+  .about {
+    background-color: rgb(234, 240, 240);
+    height: 70vh;
+    width: 100%;
+    display: flex;
+  }
+
+  .about-content {
+    height: 100vh;
+    width: 55vw;
+  }
+
+  .content-text {
+    height: 60vh;
+    width: 35vw;
+    position: relative;
+    left: 17vw;
+    top: 10vh;
+  }
+  .content-text h2 {
+    font-size: 3rem;
+  }
+  .content-text p {
+    font-size: 1.5rem;
+  }
+  .content-text button {
+    position: relative;
+    top: 1vh;
+    font-weight: bold;
+    font-size: 15px;
+    width: 9rem;
+    height: 3rem;
+    background-color: black;
+  }
+
+  .cards {
+    margin-top: 10vh;
+    width: 27rem;
+  }
+
+  .usecase {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  }
+
+  .images {
+    height: 100vh;
+    width: 42vw;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .points {
+    height: 100vh;
+    width: 58vw;
+  }
+
+  .images img:nth-child(1) {
+    height: 20rem;
+    width: 20rem;
+    position: relative;
+    left: 15vw;
+  }
+
+  .images img:nth-child(2) {
+    height: 35rem;
+    width: 20rem;
+    left: 10vw;
+    position: relative;
+    z-index: 1;
+  }
+
+  .points h3 {
+    font-weight: bold;
+    margin-top: 20rem;
+    line-height: 3.5rem;
+    font-size: 3rem;
+  }
+
+  .points p {
+    width: 34rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  ul {
+    margin-top: 2rem;
+  }
+  li {
+    list-style-type: none;
+    margin-top: 0.7rem;
+    font-size: 1.2rem;
+  }
+  li:before {
+    content: "✓";
+    color: red;
+    font-weight: bold;
+  }
+
+  /* Conclusion Section */
+  .conclusion {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+  }
+
+  .conclusion-div {
+    position: relative;
+    top: 5rem;
+    width: 70vw;
+    margin-left: 13rem;
+  }
+
+  .card2 {
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .card2 h5 {
+    font-weight: bold;
+    position: relative;
+    left: 1rem;
+    font-size: 2.8rem;
+  }
+  .card2 span {
+    font-size: 1.5rem;
+  }
+  .card2 i {
+    font-size: 3rem;
+  }
+  .start-now h3 {
+    font-weight: bold;
+    position: relative;
+    right: 5rem;
+    font-size: 3rem;
+  }
+
+  .btn-danger {
+    height: 5rem;
+    width: 17rem;
+    font-size: 1.7rem;
+  }
+}
