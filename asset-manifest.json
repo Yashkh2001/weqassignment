@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/weqassignment/static/css/main.7ff9ca18.chunk.css",
+    "main.js": "/weqassignment/static/js/main.504884cd.chunk.js",
+    "main.js.map": "/weqassignment/static/js/main.504884cd.chunk.js.map",
+    "runtime-main.js": "/weqassignment/static/js/runtime-main.99c05f44.js",
+    "runtime-main.js.map": "/weqassignment/static/js/runtime-main.99c05f44.js.map",
+    "static/js/2.6d4306d0.chunk.js": "/weqassignment/static/js/2.6d4306d0.chunk.js",
+    "static/js/2.6d4306d0.chunk.js.map": "/weqassignment/static/js/2.6d4306d0.chunk.js.map",
+    "static/js/3.5c7d1c37.chunk.js": "/weqassignment/static/js/3.5c7d1c37.chunk.js",
+    "static/js/3.5c7d1c37.chunk.js.map": "/weqassignment/static/js/3.5c7d1c37.chunk.js.map",
+    "index.html": "/weqassignment/index.html",
+    "static/css/main.7ff9ca18.chunk.css.map": "/weqassignment/static/css/main.7ff9ca18.chunk.css.map",
+    "static/js/2.6d4306d0.chunk.js.LICENSE.txt": "/weqassignment/static/js/2.6d4306d0.chunk.js.LICENSE.txt",
+    "static/media/drone1.1b93e1c5.jpg": "/weqassignment/static/media/drone1.1b93e1c5.jpg",
+    "static/media/App.css": "/weqassignment/static/media/drone2.1acbcf9c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99c05f44.js",
+    "static/js/2.6d4306d0.chunk.js",
+    "static/css/main.7ff9ca18.chunk.css",
+    "static/js/main.504884cd.chunk.js"
+  ]
+}
