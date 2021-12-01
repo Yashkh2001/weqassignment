@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import Drone from '../assets/drone1.jpg'
+import Drone1 from '../assets/drone2.jpg'
 
 const Hero = () => {
 
@@ -10,6 +11,20 @@ const Hero = () => {
         navlinks.classList.toggle("nav-active")
         const burger=document.querySelector('.burger')
         burger.classList.toggle('toggle')
+}
+
+const carousel=()=>{
+    const slide=document.getElementById("slider")
+    slide.style.transform="translateX(0px)"
+
+    
+}
+
+const carousel1=()=>{
+    const slide=document.getElementById("slider")
+    slide.style.transform="translateX(-50%)"
+
+    
 }
 
 
@@ -51,12 +66,16 @@ const Hero = () => {
                     <a href='/'>BUY NOW</a>
                 </div>
 
+
                 <div className="nav-img">
-                    <img src={Drone} alt="" />
+                    <div id="slider">
+                        <img src={Drone} alt="" />
+                        <img src={Drone1} alt="" />
+                    </div>
                 </div>
                 <div className="icons">
-                    <i class="fas fa-arrow-left fa-2x"></i>
-                    <i class="fas fa-arrow-right fa-2x"></i>
+                    <i onClick={carousel}  class="fas fa-arrow-left fa-2x"></i>
+                    <i onClick={carousel1} class="fas fa-arrow-right fa-2x"></i>
 
                 </div>
 

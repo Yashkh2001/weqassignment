@@ -87,15 +87,26 @@ body {
   border: 4px solid red;
   border-radius: 2px;
 }
-
-.nav-img img {
+.nav-img {
   width: 22rem;
   height: 20rem;
 
   margin-top: 7vh;
   position: relative;
   right: 4vw;
+  overflow: hidden;
+}
+
+.nav-img img {
+  width: 22rem;
+  height: 20rem;
+
   z-index: 1;
+}
+
+#slider {
+  transition: 0.7s;
+  display: inline-flex;
 }
 
 .icons {
@@ -117,13 +128,15 @@ body {
 /*               About Section                    */
 .about {
   background-color: rgb(234, 240, 240);
-  height: 100vh;
+
   width: 100%;
-  display: flex;
+  display: inline-flex;
+  overflow: hidden;
+  height: auto;
+  padding-bottom: 4vh;
 }
 
 .about-content {
-  height: 100vh;
   width: 55vw;
 }
 
@@ -145,7 +158,7 @@ body {
 }
 
 .cards {
-  margin-top: 10vh;
+  margin-top: 8vh;
   width: 27rem;
 }
 
@@ -173,7 +186,7 @@ body {
 
 .usecase {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
 }
 
@@ -188,6 +201,7 @@ body {
 .points {
   height: 100vh;
   width: 58vw;
+  padding-left: 1vw;
 }
 
 .images img:nth-child(1) {
@@ -232,12 +246,14 @@ li:before {
 /* Conclusion Section */
 .conclusion {
   width: 100%;
-  height: 90vh;
+  height: 70vh;
+
   position: relative;
 }
 
 .conclusion-div {
   position: relative;
+
   top: 5rem;
   width: 70rem;
   margin-left: 13rem;
@@ -265,8 +281,7 @@ li:before {
   background-color: rgb(234, 240, 240);
   width: 100%;
   height: 15rem;
-  position: absolute;
-  bottom: 0;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -390,7 +405,7 @@ hr {
   justify-content: space-between;
   bottom: 5vh;
   position: relative;
-  left: 75vw;
+  left: 70vw;
 }
 
 .toggle .line1 {
@@ -425,14 +440,26 @@ hr {
   .content p {
     font-size: 1.5rem;
   }
-  .nav-img img {
-    width: 23rem;
-    height: 21rem;
+  .nav-img {
+    width: 22rem;
+    height: 20rem;
 
     margin-top: 10vh;
     position: relative;
     right: 4vw;
+    overflow: hidden;
+  }
+
+  .nav-img img {
+    width: 22rem;
+    height: 20rem;
+
     z-index: 1;
+  }
+
+  #slider {
+    transition: 0.7s;
+    display: inline-flex;
   }
 
   .icons {
@@ -454,7 +481,7 @@ hr {
   }
 
   .about-content {
-    height: 100vh;
+    height: auto;
     width: 55vw;
   }
 
@@ -482,7 +509,7 @@ hr {
   }
 
   .cards {
-    margin-top: 10vh;
+    margin-top: 8vh;
     width: 27rem;
   }
 
@@ -551,7 +578,7 @@ hr {
   /* Conclusion Section */
   .conclusion {
     width: 100%;
-    height: 90vh;
+    height: 70vh;
     position: relative;
   }
 

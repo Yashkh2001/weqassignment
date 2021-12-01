@@ -7,7 +7,7 @@
     height: 60vh;
   }
   .about {
-    height: 70vh;
+    height: auto;
   }
   .icons {
     width: 7vw;
@@ -15,23 +15,24 @@
   }
   .usecase {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     display: flex;
   }
 
   .images {
     height: 100vh;
     width: 42vw;
+    position: relative;
+    bottom: 5vh;
 
     display: flex;
     align-items: center;
   }
 
   .points {
-    height: 100vh;
+    height: inherit;
     width: 58vw;
   }
-
   .images img:nth-child(1) {
     height: 18rem;
     width: 18rem;
@@ -61,7 +62,7 @@
     font-weight: bold;
   }
   .conclusion {
-    height: 60vh;
+    height: 35vh;
   }
   .conclusion-div {
     margin-left: 1rem;
@@ -81,7 +82,7 @@
     height: 70vh;
   }
   .about {
-    height: 80vh;
+    height: auto;
   }
   .icons {
     width: 7vw;
@@ -135,7 +136,7 @@
     font-weight: bold;
   }
   .conclusion {
-    height: 75vh;
+    height: 45vh;
   }
   .conclusion-div {
     margin-left: 15%;
@@ -154,9 +155,7 @@
   .hero {
     height: 70vh;
   }
-  .about {
-    height: 90vh;
-  }
+
   .icons {
     width: 7vw;
     left: 20vw;
@@ -211,7 +210,7 @@
     font-weight: bold;
   }
   .conclusion {
-    height: 85vh;
+    height: 55vh;
   }
   .conclusion-div {
     margin-left: 5%;
@@ -239,13 +238,13 @@
     top: 10vh;
     transition: 0.5s;
   }
-  .nav-img img {
-    width: 16rem;
-    height: 15rem;
 
+  .nav-img {
     right: 40vw;
     z-index: 1;
     top: -60vh;
+    width: 16rem;
+    height: 15rem;
   }
 
   .icons {
@@ -278,12 +277,12 @@
     justify-content: space-between;
   }
   .burger {
-    left: 85vw;
-    bottom: 3vh;
+    left: 87vw;
+    bottom: 4vh;
   }
   .about {
     background-color: rgb(234, 240, 240);
-    height: 100vh;
+    height: auto;
 
     width: 100vw;
     display: flex;
@@ -292,14 +291,15 @@
   }
 
   .about-content {
-    height: 80vh;
     width: 55vw;
+    height: inherit;
   }
 
   .content-text {
-    height: 60vh;
+    height: auto;
     width: 85vw;
     position: relative;
+
     left: 2vw;
     top: 2vh;
   }
@@ -312,12 +312,8 @@
     height: 3rem;
     background-color: black;
   }
-  .usecase {
-    height: 60vh;
-  }
 
   .cards {
-    margin-top: -15vh;
     width: 90vw;
     margin-left: 2vw;
   }
@@ -339,15 +335,25 @@
   .images {
     display: none;
   }
+  .usecase {
+    height: auto;
+  }
   .points {
     position: relative;
-    left: 10vw;
+    left: 13vw;
+    height: inherit;
+
+    padding-top: 1vh;
   }
+  .points h3 {
+    margin-top: 1rem;
+  }
+
   .conclusion {
-    width: 100vw;
-    height: 58vh;
     position: relative;
     padding-top: 2vh;
+    height: auto;
+    padding-bottom: 3vh;
   }
 
   .conclusion-div {
@@ -379,10 +385,10 @@
   .start-now {
     width: 100%;
     height: 15rem;
-    position: absolute;
+
     display: flex;
     flex-direction: column;
-    bottom: 0;
+
     align-items: center;
     justify-content: center;
   }
@@ -418,7 +424,10 @@
   .nav-img img {
     width: 16rem;
     height: 15rem;
-
+  }
+  .nav-img {
+    width: 16rem;
+    height: 15rem;
     margin-top: 67vh;
     position: relative;
     right: 84vw;
@@ -444,6 +453,10 @@
     width: 3rem;
     background-color: none;
     border: 1px solid white;
+  }
+  .burger {
+    left: 80vw;
+    bottom: 5vh;
   }
 
   .logo h3 {
@@ -495,21 +508,24 @@
 
   .about {
     background-color: rgb(234, 240, 240);
-    height: 266vh;
+
     margin-top: 30vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: auto;
     padding-bottom: 5vh;
   }
 
   .about-content {
-    height: 100vh;
+    height: auto;
     width: 55vw;
   }
 
   .content-text {
     height: 60vh;
+    height: inherit;
     width: 85vw;
     position: relative;
     left: 2vw;
@@ -553,7 +569,7 @@
 
   .usecase {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
   }
 
@@ -562,9 +578,12 @@
   }
 
   .points {
-    height: 100vh;
     width: 80vw;
-    margin-left: 2vw;
+    height: inherit;
+    position: relative;
+    padding-left: 0vw;
+    left: 3vw;
+    padding-top: 1vh;
   }
 
   .points h3 {
@@ -594,9 +613,10 @@
   }
   .conclusion {
     width: 100vw;
-    height: 158vh;
     position: relative;
+    height: auto;
     padding-top: 2vh;
+    padding-bottom: 4vh;
   }
 
   .conclusion-div {
@@ -604,6 +624,7 @@
     top: 1vh;
     width: 30rem;
     margin-left: 2vw;
+    height: inherit;
   }
 
   .card2 {
@@ -627,8 +648,7 @@
 
   .start-now {
     width: 100%;
-    height: 15rem;
-    position: absolute;
+
     display: flex;
     flex-direction: column;
     bottom: 0;
@@ -734,7 +754,8 @@
   .foot2 p {
     position: relative;
     left: 1vw;
-    font-size: 1rem;
+    width: 45vw;
+    font-size: 0.8rem;
   }
   .jj {
     right: 0vh;
@@ -743,13 +764,13 @@
 
 @media only screen and (max-width: 600px) and (orientation: portrait) and (max-aspect-ratio: 1/2) {
   .about {
-    height: 210vh;
+    height: auto;
   }
   .conclusion {
     height: 125vh;
   }
   .usecase {
-    height: 90vh;
+    height: auto;
   }
   .jj {
     right: 0vh;
@@ -759,13 +780,23 @@
 @media only screen and (max-width: 340px) and (orientation: portrait) {
   .about {
     margin-top: 60vh;
-    height: 330vh;
+    padding-bottom: 5vh;
+    height: auto;
   }
-
-  .nav-img img {
+  .about-content {
+    height: auto;
+  }
+  .nav-img {
+    width: 16rem;
+    height: 15rem;
     margin-top: 80vh;
     position: relative;
   }
+
+  .card {
+    margin-left: 12vw;
+  }
+
   .icons {
     position: relative;
     top: -60vh;
@@ -775,9 +806,6 @@
   }
   .cards {
     margin-top: 20vh;
-  }
-  .usecase {
-    height: 150vh;
   }
 
   .card2 h5 {
@@ -825,5 +853,11 @@
   }
   .burger {
     left: 75vw;
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 573px) and (orientation: portrait) {
+  .icons {
+    left: -50vw;
   }
 }
